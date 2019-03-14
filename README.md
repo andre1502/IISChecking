@@ -82,4 +82,4 @@ IISChecking.exe /c detailsite [ApplicationSiteName]
 [log4net]: <https://logging.apache.org/log4net/>
 [Newtonsoft]: <https://www.newtonsoft.com/json>
 [VisualStudio 2017]: <https://visualstudio.microsoft.com/>
-[json file example]: <examplesite.json>
+[json file example]: <IISChecking/IISChecking/configurations/examplesite.json>
