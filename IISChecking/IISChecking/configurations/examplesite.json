@@ -1,0 +1,22 @@
+{
+  "ApplicationName": "001-TestApplication",
+  "PhysicalPath": {
+    "Source": "C:\\tempApp\\001-TestApplication",
+    "Destination": "C:\\www\\001-TestApplication"
+  },
+  "BindingInformation": [
+    {
+      "Protocol": "http",
+      "IPAddress": "*",
+      "Port": "80",
+      "HostName": "abc.com"
+    },
+    {
+      "Protocol": "http",
+      "IPAddress": "*",
+      "Port": "80",
+      "HostName": "www.abc.com"
+    }
+  ],
+  "Description": "One ApplicationSite, one json file"
+}
