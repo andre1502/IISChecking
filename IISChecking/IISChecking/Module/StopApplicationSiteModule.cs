@@ -54,7 +54,7 @@ namespace IISChecking.Module {
               } catch (Exception ex) {
                 retry = true;
 
-                _logger.Error(string.Format("[{0}] - Problem on stop ApplicationPool. Message: {1}, retry {1} time(s)", MethodInfo.GetCurrentMethod().Name, ex.Message, ctr), ex);
+                _logger.Error(string.Format("[{0}] - Problem on stop ApplicationPool. Message: {1}, retry {2} time(s)", MethodInfo.GetCurrentMethod().Name, ex.Message, ctr), ex);
               }
 
               _logger.InfoFormat("[{0}] - retry status: {1}", MethodInfo.GetCurrentMethod().Name, retry);
@@ -139,7 +139,7 @@ namespace IISChecking.Module {
               } catch (Exception ex) {
                 retry = true;
 
-                _logger.Error(string.Format("[{0}] - Problem on stop ApplicationPool. Message: {1}, retry {1} time(s)", MethodInfo.GetCurrentMethod().Name, ex.Message, ctr), ex);
+                _logger.Error(string.Format("[{0}] - Problem on stop ApplicationPool. Message: {1}, retry {2} time(s)", MethodInfo.GetCurrentMethod().Name, ex.Message, ctr), ex);
               }
 
               _logger.InfoFormat("[{0}] - retry status: {1}", MethodInfo.GetCurrentMethod().Name, retry);

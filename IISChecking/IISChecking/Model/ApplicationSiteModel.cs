@@ -4,6 +4,7 @@ namespace IISChecking.Model {
 
   public class PhysicalPathModel {
     public string Source { get; set; }
+    public string SourcePackage { get; set; }
     public string Destination { get; set; }
   }
 

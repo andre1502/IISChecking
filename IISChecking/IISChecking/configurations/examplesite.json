@@ -2,6 +2,7 @@
   "ApplicationName": "001-TestApplication",
   "PhysicalPath": {
     "Source": "C:\\tempApp\\001-TestApplication",
+    "SourcePackage": "C:\\tempApp\\001-TestApplication.package.zip",
     "Destination": "C:\\www\\001-TestApplication"
   },
   "BindingInformation": [
@@ -18,5 +19,5 @@
       "HostName": "www.abc.com"
     }
   ],
-  "Description": "One ApplicationSite, one json file"
+  "Description": "One ApplicationSite, one json file. Define only one source (either use PhysicalPath.Source OR PhysicalPath.SourcePackage). Make sure BindingInformation never been assigned since there is no checking if other ApplicationSite already use same binding."
 }
